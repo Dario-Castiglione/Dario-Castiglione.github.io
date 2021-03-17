@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'HelveticaInserat';
+}
+@font-face {
+  font-family: 'HelveticaInserat';
+  src: url('HelveticaInserat.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNeue-MediumCondObl2';
+  src: url('HelveticaNeue-MediumCondObl.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNeue-UltraLigCond';
+  src: url('HelveticaNeue-UltraLigCond.woff') format('woff');
+}
+body{
+
+}
+.page{
+  width: 100%;
+  background-color: white;
+  height:100vh;
+  }
+section{
+  width: 100%;
+  height: 230px;
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-between;
+}
+section:first-of-type{
+  margin-top: 40px;
+}
+.section-2{
+  height: 150px;
+  position: relative;
+}
+.sezione-1>div{
+  height: 100%;
+  width: 14.3%;
+
+  display: block;
+}
+#black-lateral, #black-lateral2{
+ background-color: black;
+ width: 2.8%;
+}
+#s1-central{
+  width: 24%;
+  background-color: black;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+
+}
+#search-img{
+  width:15%;
+  height: 35px;
+  background-color: black;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#search{
+  max-width: 25px;
+  margin-top: 5px;
+}
+.s3{
+  width: 20%;
+  height: 50%;
+  font-size: 1.5em;
+}
+.s3>p{
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4em;
+  text-align: center;
+  color: white
+  border:1px solid red;
+  visibility:hidden;
+}
+.s3>h2{
+ text-align: center;
+ text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+
+}
+#section-3{
+  justify-content: center;
+  margin-top: 20px;
+  height: 100%;
+}
+#logo-fix{
+  width:230px;
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+}
+#text-1{
+  font-size:5em;
+  line-height:100%;
+  display: flex;
+  align-items: center;
+  text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+}
+/*div{
+  border: 1px solid blue;
+}*/
+#logotipo{
+  width: 100px;
+}
+#logotipo-box{
+  display: flex;
+  justify-content: flex-end;
+
+  }
+a{
+  font-family: 'Helvetica Neue';
+   text-decoration: none;
+   font-weight: 400;
+   color: black;
+}
+.s3>h2:hover{
+    transform: scale(1.3);
+    text-shadow: 9px 9px 11px rgba(150, 150, 150, 1);
+    transition: 500ms;
+}
+a:active{
+  color: red;
+}
+a:hover{
+  color:red;
+}
