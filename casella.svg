@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 314">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 58.8px;
+        fill: #fff;
+        font-family: HelveticaNeue-MediumCondObl, Helvetica Neue;
+        font-weight: 500;
+        font-style: oblique;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.04em;
+      }
+    </style>
+  </defs>
+  <title>casella</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="Livello_1-2" data-name="Livello 1">
+      <rect width="480" height="314"/>
+      <text class="cls-1" transform="translate(30.63 140.56)">“t<tspan class="cls-2" x="41.4" y="0">w</tspan><tspan x="81.32" y="0">o Sicilian b</tspan><tspan class="cls-2" x="329.39" y="0">o</tspan><tspan x="356.26" y="0">yz </tspan><tspan x="25.9" y="70.56">that ma</tspan><tspan class="cls-2" x="198.95" y="70.56">k</tspan><tspan x="225.82" y="70.56">e stuf</tspan><tspan class="cls-3" x="353.18" y="70.56">f</tspan><tspan class="cls-4" x="370.58" y="70.56">”</tspan></text>
+    </g>
+  </g>
+</svg>
